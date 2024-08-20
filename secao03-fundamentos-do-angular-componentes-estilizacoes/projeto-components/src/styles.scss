@@ -7,3 +7,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 //.card-cancel-button {
 //  background-color: greenyellow !important;
 //}
+
+//mat-slider[_ngcontent-ng-c1914633156] .mdc-slider__track--active_fill{
+//  border-color: red !important;
+//}
+
+mat-slider.custon-slider .mdc-slider__track--active_fill{
+  border-color: red !important;
+}
