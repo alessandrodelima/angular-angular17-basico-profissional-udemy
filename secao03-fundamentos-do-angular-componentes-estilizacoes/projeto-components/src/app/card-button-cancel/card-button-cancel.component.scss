@@ -1,5 +1,12 @@
+// Caminho Absoluto
+// @import "src/styles.scss";
+
+//Caminho Relativo
+ @import "../../styles/variables";
+
 @import "variables";
-.card_button {
+
+.card-cancel-button {
   font-size: 16px;
   text-align: center;
   margin-top: 10px;
