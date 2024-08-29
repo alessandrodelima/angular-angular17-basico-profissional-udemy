@@ -19,11 +19,15 @@ public disabledInput () {
 }
 
 public setPassWordTypeInput () {
-  this.inputText = 'password';
+  this.inputType = 'password';
 }
 
 public setTextTypeInput() {
-  this.inputText = 'text';
+  this.inputType = 'text';
+}
+
+public logInputText() {
+  console.log(this.inputText);
 }
 
 }
