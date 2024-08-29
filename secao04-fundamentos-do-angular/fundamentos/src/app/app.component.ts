@@ -30,6 +30,16 @@ public logInputText() {
   console.log(this.inputText);
 }
 
+public handleInputKeyup(event: KeyboardEvent) {
+  const currentText: string = (event.target as HTMLInputElement).value;
+  console.log(currentText);
+}
+
+public handleInputEvent(event: Event) {
+  const currentText: string = (event.target as HTMLInputElement).value;
+  console.log(currentText);
+}
+
 }
 
 

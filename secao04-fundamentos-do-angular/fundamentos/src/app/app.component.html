@@ -1,5 +1,12 @@
 <br><br>
-<input [type]="inputType" id="meu-input" [value]="inputText" [disabled]="isDisabled" />
+<input
+  [type]="inputType"
+  id="meu-input"
+  [value]="inputText"
+  [disabled]="isDisabled"
+  (keyup)="handleInputKeyup($event)"
+  (input)="handleInputEvent($event)"
+/>
 <br><br>
 <button (click)="enableInput()">Habilitar</button>
 <button (click)="disabledInput()">Desabilitar</button>
@@ -10,3 +17,10 @@
 
 <br><br>
 <button (click)="logInputText()">Log</button>
+
+<!--
+Quando envio um valor para uma prpriedade []
+Quando recebo um valor(evento) ()
+
+
+-->
