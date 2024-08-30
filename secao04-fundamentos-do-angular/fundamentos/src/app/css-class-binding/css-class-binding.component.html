@@ -1,0 +1,14 @@
+
+<button [class.red-button]="isRedButton">Vermelho</button><br><br>
+<button [class.green-button]="true">Verde</button><br><br>
+<button [class]="'red-button green-button'">Botão 03</button><br><br>
+<button
+  [class]="
+  {
+  'red-button': true,
+  'green-button': false,
+  }">
+  Objeto
+</button><br><br>
+
+<br><br><hr>
